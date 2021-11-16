@@ -1,0 +1,17 @@
+img {
+  width: 300px;
+}
+
+.window {
+  width: 300px;
+  overflow: hidden;
+}
+.window .images {
+  display: flex;
+  flex-flow: row nowrap;
+  transition: all 0.5s;
+}
+
+.red {
+  color: red;
+}
